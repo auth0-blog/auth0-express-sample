@@ -25,7 +25,7 @@ AUTH0_AUDIENCE=
 AUTH0_ISSUER=
 ```
 
-Get values for `AUTH0_AUDIENCE` and `AUTH0_ISSUER` from your Auth0 Dashboard. You can find these values by following this path in the Dashboard:
+Get the values for `AUTH0_AUDIENCE` and `AUTH0_ISSUER` from your Auth0 API in the Dashboard. You can find these values by following this path in the Dashboard:
 
 **APIs > Your API > Quick Start > Node.js**
 
