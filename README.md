@@ -34,5 +34,5 @@ Locate the definition of `jwtCheck`. The object passed to `jwt` as an argument h
 Run the client project:
 
 ```bash
-yarn start
+npm start
 ```
