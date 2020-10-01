@@ -35,13 +35,13 @@ const checkJwt = jwt({
   algorithms: ["RS256"],
 });
 
-app.get("/api/public-message", (req, res) => {
+app.get("/api/messages/public-message", (req, res) => {
   res.send({
     msg: "The API doesn't require an access token to share this message.",
   });
 });
 
-app.get("/api/private-message", checkJwt, (req, res) => {
+app.get("/api/messages/protected-message", checkJwt, (req, res) => {
   res.send({
     msg: "The API successfully validated your access token.",
   });
